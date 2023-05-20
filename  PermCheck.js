@@ -2,8 +2,6 @@
 // DESCRIPTION: Check whether array A is a permutation.
 // URL: https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
 
-// RESULT: 83%
-
 function solution(A = []) {
   A.sort((a, b) => a - b);
 
